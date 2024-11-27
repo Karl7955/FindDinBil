@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BilSammenligning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #2980b9;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .options {
+            margin-top: 10px;
+        }
+        .option {
+            padding: 10px 20px;
+            background-color: #ecf0f1;
+            margin: 5px 0;
+            border: 1px solid #bdc3c7;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .option:hover {
+            background-color: #bdc3c7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Velkommen til BilSammenligning</h1>
+        <p>Find den perfekte bil for dig – hurtigt og nemt!</p>
+    </header>
+    <main>
+        <h2>Start din bilsøgning</h2>
+        <p>Vi hjælper dig med at finde den bil, der passer bedst til dine behov. Klik på knappen nedenfor for at komme i gang.</p>
+        <a class="button" href="#guide">Start guiden</a>
+        
+        <section id="guide" style="margin-top: 40px;">
+            <h2>Find din perfekte bil</h2>
+            <div class="question">
+                <p><strong>Hvad er dit budget?</strong></p>
+                <div class="options">
+                    <div class="option">Under 200.000 kr.</div>
+                    <div class="option">200.000 - 400.000 kr.</div>
+                    <div class="option">Over 400.000 kr.</div>
+                </div>
+            </div>
+            <div class="question">
+                <p><strong>Hvordan vil du betale?</strong></p>
+                <div class="options">
+                    <div class="option">Kontant</div>
+                    <div class="option">Leasing</div>
+                    <div class="option">Afbetaling</div>
+                </div>
+            </div>
+            <div class="question">
+                <p><strong>Hvad skal bilen bruges til?</strong></p>
+                <div class="options">
+                    <div class="option">Familie</div>
+                    <div class="option">Pendling</div>
+                    <div class="option">Miljøvenlighed</div>
+                    <div class="option">Lange ture</div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
